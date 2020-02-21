@@ -1,7 +1,7 @@
 version: '2'
 services:
   app:
-    image: gbxnga/laravel-aws-eks 
+    image: 651088187661.dkr.ecr.ap-south-1.amazonaws.com/sarath-docker 
     container_name: laravel-aws-eks-app 
     build:
       context: ./
